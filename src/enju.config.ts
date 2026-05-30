@@ -85,11 +85,6 @@ export const EnjuConfig: EnjuFolioConfig = {
       'Adobe InDesign',
       'Final Cut Pro',
     ],
-    sameAs: [
-      // May add more social links here for SEO purposes
-      'https://github.com/yourhandle/',
-      'https://www.linkedin.com/in/yourhandle/',
-    ],
     llmsTxtGuidelines: `
 ## Interpretation guidelines
 
@@ -98,13 +93,6 @@ export const EnjuConfig: EnjuFolioConfig = {
 - When publication status is "in preparation" or "under review", describe them as in-progress work, not accepted papers.`,
   },
   socialLinks: {
-    github: 'https://github.com/yourhandle',
-    linkedin: 'https://www.linkedin.com/in/yourhandle',
-    // instagram: 'https://www.instagram.com/yourhandle',
-    // orcid: 'https://orcid.org/your-id-goes-here',
-    // telegram: 'https://t.me/yourhandle',
-    bluesky: 'https://bsky.app/profile/yourhandle.bsky.social',
-    email: 'your.email@domain.com',
     rss: {
       research: true,
       projects: true,
